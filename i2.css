@@ -1,0 +1,9 @@
+#projects{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    /* padding-top: 50px; */
+}
+#Projects h1{
+    color: white;
+}
