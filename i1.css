@@ -189,13 +189,13 @@ a.active{
     /* font-family: sans-serif; */
 }
 #col-1 p{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 300;
     color: rgb(255, 255, 255);
 }
 #col-1 h1{
     /* font-family: logofont2; */
-    font-size: 70px;
+    font-size: 80px;
     line-height: 100px;
     margin-left: -10px;
     color: transparent;
@@ -211,7 +211,7 @@ a.active{
     }
 }
 #col-1 h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     color: rgb(255, 255, 255);
 }
@@ -244,7 +244,7 @@ a.active{
     color: white;
 }
 #col-1 a span{
-    font-size: 30px;
+    font-size: 35px;
     line-height: 15px;
     margin-left: 5px;
     color: rgba(255, 255, 255, 0.664);
@@ -386,6 +386,7 @@ a.active{
         /* bottom: 30%; */
     }
     #col-1 p{
+
         font-size: 23px;
         font-weight: 200;
     }
