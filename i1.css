@@ -422,7 +422,7 @@ a.active{
         color: rgb(255, 255, 255);
     }
     .social-icons{
-        display: none;
+        display: block;
     }
     .row span{
         font-size: 11px;
