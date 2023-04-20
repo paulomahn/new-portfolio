@@ -386,16 +386,16 @@ a.active{
         /* bottom: 30%; */
     }
     #col-1 p{
-        font-size: 18px;
+        font-size: 23px;
         font-weight: 200;
     }
     #col-1 h1{
-        font-size: 43px;
+        font-size: 53px;
         line-height: 50px;
         margin-left: 0;
     }
     #col-1 h3{
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 200;
     }
     #col-1 .row{
@@ -417,7 +417,7 @@ a.active{
     }
     .row span{
         margin-top: 10px;
-        font-size: 8px;
+        font-size: 13px;
         color: rgb(255, 255, 255);
     }
     .social-icons{
