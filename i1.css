@@ -191,7 +191,7 @@ a.active{
 #col-1 p{
     font-size: 35px;
     font-weight: 300;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.795);
 }
 #col-1 h1{
     /* font-family: logofont2; */
@@ -199,7 +199,7 @@ a.active{
     line-height: 100px;
     margin-left: -10px;
     color: transparent;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.24);
     background: url(chef3.jpeg);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -213,7 +213,7 @@ a.active{
 #col-1 h3{
     font-size: 25px;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.712);
 }
 #col-1 .row{
     display: flex;
@@ -227,7 +227,7 @@ a.active{
     text-decoration: none;
     padding: 7px 15px;
     margin-right: 20px;
-    border: 2px solid #fff;
+    border: 2px solid #ffffff86;
     border-bottom: 2px solid red;
     display: flex;
     box-shadow: 
@@ -275,6 +275,7 @@ a.active{
 .row span{
     font-size: 13px;
     color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 

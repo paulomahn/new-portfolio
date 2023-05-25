@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="styleweb1portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="homepage">
+
+                <nav>
+                    <div id="nav1">
+                    <label id="logo"><span id="first">Port</span><span id="second">folio</span></label>
+                    <button class="hamburger" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></button>
+                    </div>
+                    <ul class="myNav">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    const myNav = document.querySelector(".myNav")
+                    function myFunction() {
+                        if (myNav.style.display==="block") {
+                            myNav.style.display="none";
+                        } else {
+                            myNav.style.display="block";
+                        }
+                    }
+                </script>
+
+                <div id="col-1">
+                    <!-- <p class="demo"></p> -->
+                    <h1>Website Done Right.</h1>
+                    <h2>I am a Frontend developer.I design on the browser with <abbr title="Hyper Text Markup Language">HTML(5)</abbr>
+                        <abbr title="Cascading style sheet">css</abbr> and JavaScript.</h2>
+                        <br>
+                    <p>I work with Frontend frame works like Bootstrap and React. I collaborate with developers and I'm also good at content structuring,
+                            intuitive UI patterns and simple interactions.</p>
+                    <p>You can read more about my Biography, Experience,skills,education and much more in the pdf attached below</p>
+                    <button id="resume"><a href="">Resume.pdf</a></button>
+                    <div id="button_divs">
+                        <button id="button1"><a href="#contact" style="text-decoration: none; color: white;">I need a Website</a></button>
+                        <button id="button2"><a href="Cettificates.pdf" style="text-decoration: none; color: white;">View Certificates</a></button>
+                    </div>
+                </div>
+            
+    </div>
+
+
+    <div id="Projects">
+        <Header>My Projects</Header>
+        <div class="theprojects">
+            <div class="project1">
+                <img src="screenshotportfolio.png" alt="portfolio">
+                <h2>My Porfolio</h2>
+                <p>My portfolio is a website where I store my
+                    projects for easy access by potential clients and employers. I built the website using HTML,CSS and
+                     JavaScript for simple Interactions.
+                </p>
+                <button><a href="index.html">Preview</a></button>
+            </div>
+
+            <div class="project1">
+                <img src="tastybistro.png" alt="TastyBistro">
+                <h2>Resturant Website</h2>
+                <p>TastyBistro is a resturant website I built from scratch,worked with a UI designer.  
+                </p>
+                <button><a href="https://tastybistro.w3spaces.com/">Preview</a></button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="myResources">
+        <header>My Resources</header>
+        <div class="toolz">
+            <img src="htmlimage.png" alt="HTML">
+            <img src="cssimage.png" alt="CSS">
+            <img src="javascriptimage.png" alt="JavaScript">
+            <img src="bootstrapimage.png" alt="Bootstrap">
+            <img src="reactimage.png" alt="React">
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="contact">
+            <!-- <header>Mobile:</header> -->
+            <p>Mobile: <br><a href="tel:+2348118084522">+2348118084522</a></p>
+            <!-- <header>Email:</header> -->
+            <p style="padding-left: 10px;">Email: <br><a href="mailto:lawaleomoniyi1411@gmail.com">lawaleomoniyi1411@gmail.com</a></p>
+        </div>
+
+        <div id="social_links">
+            <a href=" https://instagram.com/paulo_mahn" class="fa fa-instagram"></a>
+            <a href="http://twitter.com/paulo_mahn" class="fa fa-twitter"></a>
+            <a href=" https://api.whatsapp.com/send?phone=8118084522&text=Hello,%20what%E2%80%99s%20your%20name%20and%20how%20can%20I%20help%20you?" class="fa fa-whatsapp"></a>
+            <p style="border-top: 1px solid black; padding-top: 20px; padding-bottom: 20px;">All rights reserved. copywright &copy; 2022 Dev Paul.</p>
+       </div>
+    </div>
+</body>
+</html>

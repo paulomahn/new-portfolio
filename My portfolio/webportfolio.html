@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="stylewebportfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="homepage">
+        <div id="homepageedit">
+            <div id="home_content">
+                <nav>
+                    <div id="nav1">
+                    <label id="logo"><span id="first">Port</span><span id="second">folio</span></label>
+                    <button class="hamburger" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></button>
+                    </div>
+                    <ul class="myNav">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    const myNav = document.querySelector(".myNav")
+                    function myFunction() {
+                        if (myNav.style.display==="block") {
+                            myNav.style.display="none";
+                        } else {
+                            myNav.style.display="block";
+                        }
+                    }
+                </script>
+
+                <div id="col-1">
+                    <p class="demo"></p>
+                    <h1>Website Done Right.</h1>
+                    <h2>I am a Frontend developer.I design on the browser with <abbr title="Hyper Text Markup Language">HTML(5)</abbr>
+                        <abbr title="Cadscaling style sheet">css</abbr> and JavaScript.</h2>
+                    <p>I work with Frontend frame works like Bootstrap and React. I collaborate with developers and I'm also good at content structuring,
+                            intuitive UI patterns and simple interactions.</p>
+                    <p>You can read more about my Biography, Experience,skills,education and much more in the pdf attached below</p>
+                    <button id="resume"><a href="Resume.pdf">Resume.pdf</a></button>
+                    <div id="button_divs">
+                        <button id="button1"><a href="#contact" style="text-decoration: none; color: white;">I need a Website</a></button>
+                        <button id="button2"><a href="Cettificates.pdf" style="text-decoration: none; color: white;">View Certificates</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Projects">
+        <Header>My Projects</Header>
+        <div class="theprojects">
+            <div class="project1">
+                <img src="Screenshotportfolio.png" alt="portfolio">
+                <h2>My Porfolio</h2>
+                <p>My portfolio is a website i built for myself after the first month of learning html and CSS.<br> I store my
+                    projects here for easy access by potential clients and employers.
+                </p>
+                <button><a href="webportfolio.html" style="color: white; text-decoration:none;">Preview</a></button>
+            </div>
+
+            <div class="project1">
+                <img src="Screenshotportfolio.png" alt="portfolio">
+                <h2>My Porfolio</h2>
+                <p>My portfolio is a website i built for myself after the first month of learning html and CSS.<br> I store my
+                    projects here for easy access by potential clients and employers.
+                </p>
+                <button>Preview</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="myResources">
+        <header>My Resources</header>
+        <div class="toolz">
+            <img src="htmlimage.png" alt="HTML">
+            <img src="cssimage.png" alt="CSS">
+            <img src="javascriptimage.jfif" alt="JavaScript">
+            <img src="bootstrapimage.png" alt="Bootstrap">
+            <img src="reactimage.jfif" alt="React">
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="contact">
+            <!-- <header>Mobile:</header> -->
+            <p>Mobile: <br><a href="tel:+2348118084522">+2348118084522</a></p>
+            <!-- <header>Email:</header> -->
+            <p style="padding-left: 10px;">Email: <br><a href="mailto:lawaleomoniyi1411@gmail.com">lawaleomoniyi1411@gmail.com</a></p>
+        </div>
+
+        <div id="social_links">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-whatsapp"></i>
+            <p style="border-top: 1px solid black; padding-top: 20px; padding-bottom: 20px;">All rights reserved. copywright &copy; 2022 Dev Paul.</p>
+       </div>
+    </div>
+</body>
+</html>
